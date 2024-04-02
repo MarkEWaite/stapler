@@ -12,7 +12,7 @@
   <description>Jelly binding for Stapler</description>
 
   <properties>
-    <jelly.version>1.1-jenkins-20230713</jelly.version>
+    <jelly.version>1.1-jenkins-20240331-SNAPSHOT</jelly.version>
     <jellydoc-maven-plugin.version>137.v803fea_a_fb_c75</jellydoc-maven-plugin.version>
   </properties>
 
@@ -30,7 +30,7 @@
     <dependency>
       <groupId>org.jenkins-ci</groupId>
       <artifactId>commons-jelly</artifactId>
-      <version>1.1-jenkins-20220631-rc116.d3d764374a_27</version> <!-- TODO https://github.com/jenkinsci/jelly/pull/8 -->
+      <version>1.1-jenkins-20240331-SNAPSHOT</version> <!-- TODO https://github.com/jenkinsci/jelly/pull/8 -->
       <exclusions>
         <exclusion>
           <groupId>dom4j</groupId>
