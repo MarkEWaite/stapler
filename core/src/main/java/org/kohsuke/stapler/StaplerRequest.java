@@ -26,7 +26,7 @@ package org.kohsuke.stapler;
 import java.util.Set;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.ConvertUtils;
-import org.apache.commons.fileupload2.FileItem;
+import org.apache.commons.fileupload2.core.FileItem;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletContext;

@@ -39,9 +39,13 @@
       <version>0.5</version>
     </dependency>
     <dependency>
-      <!-- perhaps mark this dependency optional? -->
       <groupId>org.apache.commons</groupId>
-      <artifactId>commons-fileupload2</artifactId>
+      <artifactId>commons-fileupload2-core</artifactId>
+      <version>2.0.0-M2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-fileupload2-jakarta-servlet5</artifactId>
       <version>2.0.0-M2</version>
     </dependency>
     <dependency>
